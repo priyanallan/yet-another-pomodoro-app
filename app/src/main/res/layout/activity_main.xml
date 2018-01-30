@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#37AEE4"
+    android:backgroundTint="#FEFBDE"
+    tools:context="lilacapps.com.timeratyourwill.MainActivity">
+
+    <TextView
+        android:id="@+id/titleOfApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/slog_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="120sp"
+        android:layout_marginTop="50dp"
+        android:text="00:00"
+        android:gravity="center"
+        android:layout_below="@id/titleOfApp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/slog_interval"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:drawableRight="@drawable/time48"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
