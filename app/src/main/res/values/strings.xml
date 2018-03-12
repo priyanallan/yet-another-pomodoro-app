@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">TimerAtYourWill</string>
-    <string name="Title">MyTitle</string>
+    <string name="Title">Dual Timer</string>
+    <string name="startTimerText">start</string>
     <string name="sets">EnterSets</string>
     <string name="setSlog">Enter SlogTime(in sec)</string>
     <string name="setTimeOut">Enter TimeOut(in sec)</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

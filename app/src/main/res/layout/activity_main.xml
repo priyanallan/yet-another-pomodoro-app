@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#37AEE4"
-    android:backgroundTint="#FEFBDE"
+    android:theme="@style/Theme.AppCompat.Light"
     tools:context="lilacapps.com.timeratyourwill.MainActivity">
 
     <TextView
@@ -25,14 +24,14 @@
         android:layout_height="wrap_content"
         android:textSize="120sp"
         android:layout_marginTop="50dp"
-        android:text="00:00"
+        tools:text="00:00"
         android:gravity="center"
         android:layout_below="@id/titleOfApp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="00:00"
-        android:textSize="40dp"
+        tools:text="00:00"
+        android:textSize="40sp"
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:layout_below="@id/slog_interval"
@@ -40,8 +39,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start"
-        android:drawableRight="@drawable/time48"
+        android:text="@string/startTimerText"
+        android:drawableEnd="@drawable/time48"
         android:textSize="25sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
